@@ -68,3 +68,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### signup-form
+
+* Added style to body from index.css file 
+   height: 100vh;
+  /* background: linear-gradient(to right,purple,blue); */
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(88,9,121,1) 35%, rgb(102, 175, 189) 100%);
+* create a folder named components in src folder to group all custom function components
+* create LoginPage component and import it to App.js. create instance of this component in App    function component
+* Add CDN link to index.html(public folder) <head> section to use bootstrap.
