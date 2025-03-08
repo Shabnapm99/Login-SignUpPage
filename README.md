@@ -79,3 +79,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 * create a folder named components in src folder to group all custom function components
 * create LoginPage component and import it to App.js. create instance of this component in App    function component
 * Add CDN link to index.html(public folder) <head> section to use bootstrap.
+* To use icons from font awesome added <script src="https://kit.fontawesome.com/ec30f835dd.js" crossorigin="anonymous"></script> to index.html
+* *{
+  box-sizing: border-box;
+} to index.css
