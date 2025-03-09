@@ -6,7 +6,7 @@ function LoginPage(props) {
     //const[isLogin, setAction] = useState("Login")
   return (
     <div className='position-relative vh-100'>
-        <div className='container bg-secondary-subtle rounded-5 position-absolute top-50 start-50 translate-middle pb-5 pt-5 w-50'>
+        <div className='container bg-secondary-subtle rounded-5 position-absolute top-50 start-50 translate-middle pb-5 pt-5'>
       <div className="header pb-3"><h1 className=''><u>{action}</u></h1></div>
       {/* <div className="row"> */}
     {/*Use ternary operator to show required page*/}
@@ -51,7 +51,7 @@ function LoginPage(props) {
         <div className="input m-3">
             {/* <img src='' alt=''></img> */}
             <i className="fa-solid fa-user p-2"></i>
-            <input type='text' placeholder='preferred username' className='rounded p-2 w-50'></input>
+            <input type='text' placeholder='preferred username' className='rounded p-2 w-50 '></input>
         </div>
         <button type='submit' className='btn btn-primary m-3 mb-0'>Register</button>
     
