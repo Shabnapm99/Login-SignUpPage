@@ -6,7 +6,7 @@ function LoginPage(props) {
     //const[isLogin, setAction] = useState("Login")
   return (
     <div className='position-relative vh-100'>
-        <div className='container bg-secondary-subtle rounded-5 position-absolute top-50 start-50 translate-middle pb-5 pt-5'>
+        <div className='container bg-secondary-subtle rounded-5 position-absolute top-50 start-50 translate-middle pb-5 pt-5npm'>
       <div className="header pb-3"><h1 className=''><u>{action}</u></h1></div>
       {/* <div className="row"> */}
     {/*Use ternary operator to show required page*/}
