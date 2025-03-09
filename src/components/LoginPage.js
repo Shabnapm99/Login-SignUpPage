@@ -53,10 +53,10 @@ function LoginPage(props) {
             <i className="fa-solid fa-user p-2"></i>
             <input type='text' placeholder='preferred username' className='rounded p-2 w-50'></input>
         </div>
-        <button type='submit' className='btn btn-primary m-3'>Register</button>
+        <button type='submit' className='btn btn-primary m-3 mb-0'>Register</button>
     
         </div>
-        <div>Already have an account?
+        <div className='pb-2'>Already have an account?
         {/* <p><i onClick={()=>setHeader("Login")}>Login</i></p> */}
         </div>
         <div>
